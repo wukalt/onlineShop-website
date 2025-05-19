@@ -1,0 +1,281 @@
+﻿@{
+	ViewData["Title"] = "لیست محصولات";
+}
+
+<main>
+    <div class="bg-danger mt-5 p-1 p-sm-5">
+        <div class="bg-white rounded container p-2 mt-2">
+            <div class="row m-1 gx-4">
+                <div class="col-lg-6 text-center">
+                    <div class="productdiv single-product">
+                        <div class="mainimage"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h3 class="m-4">محصول شماره یک</h3>
+                    <h5 class="m-4">توضیحات تکمیلی</h5>
+                    <ul>
+                        <li class="m-2">
+                            <span class="ms-2">اندازه : </span>
+                            <input type="radio"
+                                   class="btn-check"
+                                   name="options-base"
+                                   id="option5"
+                                   autocomplete="off"
+                                   checked />
+                            <label class="btn text-danger" for="option5">بزرگ</label>
+
+                            <input type="radio"
+                                   class="btn-check"
+                                   name="options-base"
+                                   id="option6"
+                                   autocomplete="off" />
+                            <label class="btn text-danger" for="option6">کوچک</label>
+                        </li>
+                        <li class="m-2">کد محصول : 25685</li>
+                        <li class="m-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                            molestias molestiae labore, quos et magnam consequuntur vel
+                            tempora provident. Optio eligendi sint ad soluta corporis nam
+                            ullam repellendus accusamus quis.
+                        </li>
+                    </ul>
+                    <h4 class="m-4">قیمت : 1,000,000 تومان</h4>
+                    <div class="d-flex justify-content-center align-items-center m-4">
+                        <span>رنگ های موجود</span>
+                        <div class="colors">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger">اضافه کردن به سبد خرید</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-products">
+        <div class="container">
+            <!-- متن بالاش  -->
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="head">
+                        <h2>محصولات پرطرفدار</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" class="single-product">
+                        <div class="part-1">
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">لباس سمت راست</h3>
+                            <h4 class="product-old-price">700,000 تومان</h4>
+                            <h4 class="product-price">490,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" class="single-product">
+                        <div class="part-1">
+                            <span class="discount">15% off</span>
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">لباس دوم</h3>
+                            <h4 class="product-price">400,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" class="single-product">
+                        <div class="part-1">
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">لباس جینگولی</h3>
+                            <h4 class="product-old-price">700,000 تومان</h4>
+                            <h4 class="product-price">490,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" class="single-product">
+                        <div class="part-1">
+                            <span class="new">new</span>
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">محصول سوم</h3>
+                            <h4 class="product-price">490,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-5" class="single-product">
+                        <div class="part-1">
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">ی محصول دیگه</h3>
+                            <h4 class="product-old-price">700,000 تومان</h4>
+                            <h4 class="product-price">490,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-6" class="single-product">
+                        <div class="part-1">
+                            <span class="discount">15% off</span>
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">محصول چهارم</h3>
+                            <h4 class="product-price">490,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-7" class="single-product">
+                        <div class="part-1">
+                            <ul>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="./products.html"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">محصول جدید</h3>
+                            <h4 class="product-old-price">700,000 تومان</h4>
+                            <h4 class="product-price">490,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Product -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-8" class="single-product">
+                        <div class="part-1">
+                            <span class="new">new</span>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fas fa-shopping-cart">xl</i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-heart">l</i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-plus">m</i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-expand">s</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="part-2">
+                            <h3 class="product-title">محصول جدید</h3>
+                            <h4 class="product-price">700,000 تومان</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

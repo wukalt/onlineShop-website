@@ -1,8 +1,447 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "صفحه اصلی";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+	<!-- عکس ثابت بالای سایت صفحه اصلی -->
+	<div class="fixed-image"></div>
+
+	<!-- آفر های ویژه ک ب رنگ سفید زیر عکس ثابت قرار داره  -->
+	<div class="container-fluid bg-white p-1 mb-4 pt-3">
+		<div class="row text-center mx-auto p-1">
+			<div class="col-12 col-md-4 p-1">
+				<h5><b>پرداخت با دیجی پی</b></h5>
+				<p>با دیجی پی با چهار قسط پرداخت کن</p>
+			</div>
+			<div class="col-12 col-md-4 p-1">
+				<h5><b>ضمانت بازگشت کالا</b></h5>
+				<p>بازگشت بدون قید و شرط کالا تا 7 روز</p>
+			</div>
+			<div class="col-12 col-md-4 p-1">
+				<h5><b>ارسال رایگان</b></h5>
+				<p>ارسال رایگان برای خرید بالای 500 تومان</p>
+			</div>
+		</div>
+	</div>
+
+	<!--   نمونه گالری بعضی محصولات به صورت چندتا اسلاید کنار هم -->
+	<div class="container bg-danger p-2 rounded mb-4">
+		<div class="row row-cols-1 row-cols-lg-3 g-2">
+			<div class="col justify-content-center align-items-center g-2">
+				<div id="carouselright" class="carousel slide">
+					<div class="carousel-indicators">
+						<button type="button"
+								data-bs-target="#carouselright"
+								data-bs-slide-to="0"
+								class="active visually-hidden"
+								aria-current="true"
+								aria-label="Slide 1"></button>
+						<button type="button"
+								class="visually-hidden"
+								data-bs-target="#carouselright"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+						<button type="button"
+								class="visually-hidden"
+								data-bs-target="#carouselright"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner rounded">
+						<div class="carousel-item active" data-bs-interval="10000">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel1image1.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+						<div class="carousel-item" data-bs-interval="2000">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel1image2.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+						<div class="carousel-item">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel1image3.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+					</div>
+					<button class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselright"
+							data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"
+							  aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselright"
+							data-bs-slide="next">
+						<span class="carousel-control-next-icon"
+							  aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<div class="col justify-content-center align-items-center g-2">
+				<div id="carouselcenter" class="carousel slide">
+					<div class="carousel-indicators">
+						<button type="button"
+								data-bs-target="#carouselcenter"
+								data-bs-slide-to="0"
+								class="active visually-hidden"
+								aria-current="true"
+								aria-label="Slide 1"></button>
+						<button class="visually-hidden"
+								type="button"
+								data-bs-target="#carouselcenter"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+						<button type="button"
+								class="visually-hidden"
+								data-bs-target="#carouselcenter"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner rounded">
+						<div class="carousel-item active" data-bs-interval="10000">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel2image1.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+						<div class="carousel-item" data-bs-interval="2000">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel2image2.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+						<div class="carousel-item">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel2image3.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+					</div>
+					<button class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselcenter"
+							data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"
+							  aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselcenter"
+							data-bs-slide="next">
+						<span class="carousel-control-next-icon"
+							  aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<div class="col justify-content-center align-items-center g-2">
+				<div id="carouselleft" class="carousel slide">
+					<div class="carousel-indicators">
+						<button type="button"
+								data-bs-target="#carouselleft"
+								data-bs-slide-to="0"
+								class="active visually-hidden"
+								aria-current="true"
+								aria-label="Slide 1"></button>
+						<button type="button"
+								class="visually-hidden"
+								data-bs-target="#carouselleft"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+						<button type="button"
+								class="visually-hidden"
+								data-bs-target="#carouselleft"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner rounded">
+						<div class="carousel-item active" data-bs-interval="10000">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel3image1.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+						<div class="carousel-item" data-bs-interval="2000">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel3image2.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+						<div class="carousel-item">
+							<a href="../html files/products.html">
+								<img src="~/images/carosusel/carosel3image3.jpg"
+									 class="d-block w-100"
+									 alt="..." />
+							</a>
+						</div>
+					</div>
+					<button class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselleft"
+							data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"
+							  aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselleft"
+							data-bs-slide="next">
+						<span class="carousel-control-next-icon"
+							  aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- پیشنهاد ویژه -->
+	<a href="#" class="text-decoration-none text-reset">
+		<div class="mx-0 mx-sm-5">
+			<div class="card mb-3 mx-5"
+				 style="height: 60px; border-color: #dc3545">
+				<div class="card-body">
+					<div class="d-flex justify-content-between">
+						<p class="d-inline-block align-items-center">
+							<b> پیشنهاد های ویژه </b>
+						</p>
+						<p class="d-inline-block">همه</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</a>
+
+	<!-- ایکون ها -->
+	<div class="container m-4 mx-auto">
+		<p class="text-center p-2">دسته بندی مد نظر خود را انتخاب کنید</p>
+		<div class="row row-cols-1 row-cols-lg-4 g-4 text-center">
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Bag.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/boots.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Cap.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/coat.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Dress.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Running Shoe.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/shoes.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Sock.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Trousers.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Tshirt.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/Dumbbell.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+			<div class="col-3">
+				<a href="#">
+					<img src="~/images/icons/makeup.png"
+						 class="hover"
+						 width="80px"
+						 alt="محصولات" />
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- کارت محصولات -->
+	<div class="p-4 p-sm-5">
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+				<a class="text-reset text-decoration-none"
+				   href="../html files/products.html">
+					<div class="card h-100">
+						<div class="position-absolute start-0">
+							<img src="~/images/stickers/new.png" width="60px" alt="" />
+						</div>
+						<img src="~/images/cards/shirt.png"
+							 class="card-img-top"
+							 alt="..." />
+						<div class="card-body">
+							<h5 class="card-title"><b>لباس زیبا در رنگ گوگولی</b></h5>
+							<p class="card-text">
+								این لباس از بهترین لباس های تولید شده توسط تولیدی شماره ی یک
+								میباشد که بسیار پرطرفدار و پر فروش بوده
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col">
+				<a class="text-reset text-decoration-none"
+				   href="../html files/products.html">
+					<div class="card h-100">
+						<div class="position-absolute start-0">
+							<img src="~/images/stickers/new.png" width="60px" alt="" />
+						</div>
+						<img src="~/images/cards/manteao.png"
+							 class="card-img-top"
+							 alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">لباس خاص</h5>
+							<p class="card-text">از پرفروش ترین لباس های رنگ مشکی</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col">
+				<a class="text-reset text-decoration-none"
+				   href="../html files/products.html">
+					<div class="card h-100">
+						<div class="position-absolute start-0">
+							<img src="~/images/stickers/new.png" width="60px" alt="" />
+						</div>
+						<img src="~/images/cards/tshirt.png"
+							 class="card-img-top"
+							 alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">لباس کودکانه</h5>
+							<p class="card-text">
+								این لباس از بهترین و زیبا ترین لباس های حوزه ی کودک و نوجوان
+								میباشد
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col">
+				<a class="text-reset text-decoration-none"
+				   href="../html files/products.html">
+					<div class="card h-100">
+						<img src="~/images/cards/clothes.png"
+							 class="card-img-top"
+							 alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">کفش مجلسی</h5>
+							<p class="card-text">
+								از بهترین کفش های تولید شده توسط کارخانه ی کفش اول جهان
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col">
+				<a class="text-reset text-decoration-none"
+				   href="../html files/products.html">
+					<div class="card h-100">
+						<img src="~/images/cards/shirt.png"
+							 class="card-img-top"
+							 alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">کفش مجلسی</h5>
+							<p class="card-text">
+								از بهترین کفش های تولید شده توسط کارخانه ی کفش اول جهان
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col">
+				<a class="text-reset text-decoration-none"
+				   href="../html files/products.html">
+					<div class="card h-100">
+						<img src="~/images/cards/hat.png"
+							 class="card-img-top"
+							 alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">کفش مجلسی</h5>
+							<p class="card-text">
+								از بهترین کفش های تولید شده توسط کارخانه ی کفش اول جهان
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<partial name="_SpecialCards" />
 </div>
