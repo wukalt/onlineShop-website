@@ -7,4 +7,51 @@
     <RootNamespace>onlineShop_website</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\fonts\PelakFA-light.eot" />
+    <None Include="wwwroot\fonts\PelakFA-light.ttf" />
+    <None Include="wwwroot\fonts\PelakFA-light.woff" />
+    <None Include="wwwroot\fonts\PelakFA-light.woff2" />
+    <None Include="wwwroot\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\images\aboutus\team.jpg" />
+    <None Include="wwwroot\images\aboutus\team2.jpg" />
+    <None Include="wwwroot\images\cards\tshirt.png" />
+    <None Include="wwwroot\images\cards\clothes.png" />
+    <None Include="wwwroot\images\cards\manteao.png" />
+    <None Include="wwwroot\images\cards\shirt.png" />
+    <None Include="wwwroot\images\cards\hat.png" />
+    <None Include="wwwroot\images\cards\bag.png" />
+    <None Include="wwwroot\images\carosusel\carosel1image1.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel1image2.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel1image3.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel2image1.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel2image2.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel2image3.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel3image1.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel3image2.jpg" />
+    <None Include="wwwroot\images\carosusel\carosel3image3.jpg" />
+    <None Include="wwwroot\images\cart_8.jpg" />
+    <None Include="wwwroot\images\icons\Bag.png" />
+    <None Include="wwwroot\images\icons\boots.png" />
+    <None Include="wwwroot\images\icons\Cap.png" />
+    <None Include="wwwroot\images\icons\coat.png" />
+    <None Include="wwwroot\images\icons\Dress.png" />
+    <None Include="wwwroot\images\icons\Dumbbell.png" />
+    <None Include="wwwroot\images\icons\makeup.png" />
+    <None Include="wwwroot\images\icons\Running Shoe.png" />
+    <None Include="wwwroot\images\icons\shoes.png" />
+    <None Include="wwwroot\images\icons\Sock.png" />
+    <None Include="wwwroot\images\icons\Trousers.png" />
+    <None Include="wwwroot\images\icons\Tshirt.png" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\stickers\new.png" />
+    <None Include="wwwroot\PAGES\aboutUs.html" />
+    <None Include="wwwroot\PAGES\digikala.html" />
+    <None Include="wwwroot\PAGES\listproducts.html" />
+    <None Include="wwwroot\PAGES\logindigikala.html" />
+    <None Include="wwwroot\PAGES\loginnum.html" />
+    <None Include="wwwroot\PAGES\products.html" />
+    <None Include="wwwroot\PAGES\sabadKharid.html" />
+  </ItemGroup>
+
 </Project>
