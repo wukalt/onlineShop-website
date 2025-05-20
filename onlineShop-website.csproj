@@ -45,10 +45,6 @@
     <None Include="wwwroot\images\icons\Tshirt.png" />
     <None Include="wwwroot\images\logo.png" />
     <None Include="wwwroot\images\stickers\new.png" />
-    <None Include="wwwroot\PAGES\listproducts.html" />
-    <None Include="wwwroot\PAGES\logindigikala.html" />
-    <None Include="wwwroot\PAGES\loginnum.html" />
-    <None Include="wwwroot\PAGES\sabadKharid.html" />
   </ItemGroup>
 
 </Project>

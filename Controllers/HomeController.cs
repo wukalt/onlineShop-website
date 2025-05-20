@@ -18,12 +18,26 @@ public class HomeController : Controller
         return View();
     }
 
+    [Route("AboutUs")]
     public IActionResult AboutUs()
     {
         return View();
     }
 
+    [Route("ProductList")]
+    public IActionResult ProductList()
+    {
+        return View();
+    }
+
+    [Route("ViewProduct")]
     public IActionResult Products()
+    {
+        return View();
+    }
+
+    [Route("ShopingList")]
+    public IActionResult ShopingList()
     {
         return View();
     }
