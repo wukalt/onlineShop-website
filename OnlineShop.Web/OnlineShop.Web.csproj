@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>onlineShop_website</RootNamespace>
+    <RootNamespace>OnlineShop</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -48,7 +48,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OnlineShop.DataLayer\OnlineShop.DataLayer.csproj" />
     <ProjectReference Include="..\OnlineShop.Models\OnlineShop.Models.csproj" />
+    <ProjectReference Include="..\OnlineShop.Utility\OnlineShop.Utility.csproj" />
   </ItemGroup>
 
 </Project>

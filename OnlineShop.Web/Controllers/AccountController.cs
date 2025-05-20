@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace onlineShop_website.Controllers;
+namespace OnlineShop.Controllers;
 
 public class AccountController : Controller
 {

@@ -168,7 +168,7 @@ body {
 .fixed-image {
     width: 100%;
     height: 300px;
-    background-image: url("../photos/cart_8.jpg");
+    background-image: url("~/images/cart_8.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -246,7 +246,7 @@ li {
 }
 
 .productdiv .mainimage::before {
-    background: url("../photos/cards/تیشرت.png") no-repeat center;
+    background: url("~/images/cards/tshirt.png") no-repeat center;
     background-size: cover;
     transition: all 0.3s;
 }
